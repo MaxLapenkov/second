@@ -1,0 +1,6 @@
+table tr::nth-child(even){ //для четного ряда
+    color:#0000;
+}
+table tr::nth-child(odd){ //для нечетного ряда
+    color:#сс0000;
+}

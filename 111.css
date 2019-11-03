@@ -1,0 +1,28 @@
+
+html,
+body{
+	
+	height: 100%
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.container header{
+	background-color: black;
+	flex: 0 0 auto
+}
+.container .main{
+	
+	flex: 1 0 auto
+}
+
+.container footer{
+	
+	background-color: gray
+;
+	flex: 0 0 auto
+}
