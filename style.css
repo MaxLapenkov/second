@@ -119,7 +119,7 @@ section{
 	 color: black;
 	 font-size: 20px;
  }
-@media all and (max-width: 600px) {
+@media all and (max-width: 900px) {
  
   .main {
  flex-direction: column;
