@@ -1,6 +1,130 @@
-table tr::nth-child(even){ //для четного ряда
-    color:#0000;
+html{
+	height: 100%
+	
 }
-table tr::nth-child(odd){ //для нечетного ряда
-    color:#сс0000;
+body {
+	
+    font-family: "Arial", sans-serif;
+	height: 100%;
+	margin: 0px;
+	padding: 0;
 }
+a{
+	color: white;
+	
+}
+.background{
+	
+	background-image: url("123.jpg");
+}
+.container{
+    max-width:1920px;
+    
+    margin: 0 auto;
+   
+	min-height: 100%;
+    display: flex;
+    flex-direction: column;
+	
+	
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	background-color: #90A6BB;
+	
+}
+.head{
+	background-color: #ACB9C2;
+	margin: 0 20%;
+	padding: 0  10px;
+	text-align: center;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+.hr li{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	margin-right: 20px;
+}
+.video{
+	background-color: #ACB9C2;
+	text-align: center;
+	
+}
+.main{
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 20%;
+}
+aside{
+	background-color: #6B91B4;
+	flex-basis: 20%;
+}
+section{
+	background-color: #6B91B4;
+	margin-left: 10px;
+	flex-basis: 80%;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 220px 220px 220px;
+	grid-template-rows: 250px auto;
+	justify-content: center;
+	align-items: center;
+}
+ ul.sr{
+	 list-style-type: none;
+	 margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; /* Значение полей */
+	text-align: center;
+ }
+ ul.sr li{
+	 
+	 margin-right: 5px; /* Отступ слева */
+    padding: 5px; /* Поля вокруг текста */
+	font-size: 16px;
+ }
+ h3{
+	 text-align: center;
+	 
+ }
+ .img{
+	 grid-column-start: 1;
+  grid-column-end: -1;
+	 
+	 
+ }
+ footer{
+	 display:flex;
+	background-color: #90A6BB;
+	justify-content: space-between;
+	align-items: center;
+ }
+.logo{
+	margin: 10px;
+	
+}
+ .logo img{
+	 border-radius: 10px;
+	 margin: 5px;
+ }
+ a:hover{
+	 color: black;
+	 font-size: 20px;
+ }
+@media all and (max-width: 600px) {
+ 
+  .main {
+ flex-direction: column;
+  }
+  section{
+	  grid-template-columns: 220px;
+	  grid-template-rows: 250px 250px 250px auto;
+  }
