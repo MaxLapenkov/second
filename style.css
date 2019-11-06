@@ -137,7 +137,12 @@ section{
   .main {
  flex-direction: column;
   }
+  aside{
+	  background: linear-gradient(#6B91B4,#7C9BB8);
+	  
+  }
   section{
+	  background: linear-gradient(#7C9BB8,#90A6BB);
 	  margin-left: 0px;
 	  grid-template-columns: 220px;
 	  grid-template-rows: 250px 250px 250px auto;
