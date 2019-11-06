@@ -42,7 +42,7 @@ header{
     justify-content: space-between;
 }
 header button {
-    background-color: #547BA6;
+    background-image: linear-gradient(#b8e1fc 0%, #90bcea 35%, #90bff0 50%, #6ba8e5 51%, #bdf3fd 100%);
     border: none;
     padding: 8px 10px;
     color: #fff;
